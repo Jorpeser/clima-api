@@ -1,0 +1,14 @@
+
+
+SHOW TABLES;
+
+CREATE TABLE clima (
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  tiempo TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  temperatura FLOAT,
+  humedad FLOAT
+);
+
+DESCRIBE clima;
+
+SELECT * FROM clima;
